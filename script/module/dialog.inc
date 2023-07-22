@@ -31,6 +31,7 @@ DialogResponse:attach_main(playerid, response, listitem, inputtext[]) {
 		object_bone
 	);
 
+	EditAttachedObject(playerid, object_index);
 	
 	return true;
 }
